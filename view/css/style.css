@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Belanosima', sans-serif;
+}
+
+.twos_navbar{
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.twos_navbar div, .twos_navbar ul{
+    background-color: transparent !important;
+}
+
+.titulo{
+    padding: auto;
+    text-align: center;
+    margin: 50px;
+}
+
+.titulo h2{
+    color: red;
+    font-size: 5vw;
+    margin-bottom: 10px;
+}
+
+.titulo p{
+    font-size: 2.6vw;
+    margin-bottom: 10px;
+}
+
+.cont_footer{
+    background-color: black;
+    padding: 5%;
+    color: white;
+    margin-top: 50px;
+}

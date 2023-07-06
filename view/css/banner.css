@@ -1,0 +1,116 @@
+.banner{
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/banner\ 0.jpg");
+}
+
+.sombra_contenedor{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    margin: auto;
+}
+
+.sombra_contenedor hr{
+    border-top: 1px solid #fff;
+}
+
+.sombra_contenedor h1{
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.sombra_contenedor p{
+    font-size: 3vw;
+    margin-bottom: 10px;
+}
+
+.link_contenedor{
+    margin: 15px;
+    position: relative;
+}
+
+.link_contenedor a{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 1px;
+    margin-bottom: 5px;
+    width: 150px;
+}
+
+.link_contenedor a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.banner_link{
+    opacity: 0;
+    animation: banner_keyframes_arriba 1s;
+    -webkit-animation: banner_keyframes_arriba 1s;
+    animation-fill-mode: forwards;
+}
+
+.banner_link_1{
+    opacity: 0;
+    animation: banner_keyframes_arriba 1s;
+    -webkit-animation: banner_keyframes_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+
+.banner_link_2{
+    opacity: 0;
+    animation: banner_keyframes_arriba 1s;
+    -webkit-animation: banner_keyframes_arriba 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.ofertas{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.banner1{
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/banner2.jpg");
+}
+
+.banner1 h1{
+    font-size: 6vw;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(230, 27, 27);
+    padding-top: 97px;
+    padding-bottom: 20px;
+}
+
+.banner1 p{
+    text-align: center;
+    margin: 15px 40%;
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5vw;
+}
+
+.banner1 p:hover{
+    background-color: #fff;
+    color: #000;
+}
